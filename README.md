@@ -1,10 +1,23 @@
 # DigiTecten
 
+digital + architects = DigiTecten
+
+
 Unser Projekt zum SDaCathon 2021 (Visuelle Challenge)
 
 ## Idee
 
-Wir wollen Symbole auf Bauplänen erkennen und verschiedene Funktionen wie Suchen nach / Zählen von Piktogrammen erlauben.
+Wir wollen Symbole auf Bauplänen erkennen und verschiedene Funktionen wie suchen nach / zählen von Piktogrammen erlauben.
+
+Außerdem soll der Benutzer die Möglichkeit bekommen das Modell eigenständig zu trainieren. Hierfür kann er jeden beliebigen Bereich markieren und ein Label dafür vergeben.
+Die Software generiert aus dem selektierten Bereich dynamische Testdaten, aktualisiert das Modell und führt anschließend die Evaluierung aus. 
+Die Benutzer haben die Verantwortung der KI nur sinnvolle Piktogramme (Bildausschnitte) zu lernen.
+
+Der Benutzer bekommt danach gleich Feedback durch das gelernte Model.
+Da es sich hierbei um eine Webanwendung handelt, sind die zusätzlich gelernten Piktogramme für alle anderen Benutzer verfügbar. 
+
+Visuelle Darstellung:
+![Original PDF nach Zerlegung](assets/flow.png)
 
 ## Konzept
 
